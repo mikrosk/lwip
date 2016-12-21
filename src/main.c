@@ -4,11 +4,11 @@
 
 #include "lwip/init.h"
 #include "lwip/debug.h"
- #include "lwip/timeouts.h"
+#include "lwip/timeouts.h"
 #include "lwip/stats.h"
 #include "lwip/ip.h"
-// //#include "netif/tapif.h"
- #include "netif/etharp.h"
+//#include "netif/rtl8019if.h"
+#include "netif/etharp.h"
 
 /* (manual) host IP configuration */
 static ip4_addr_t ipaddr, netmask, gw;
